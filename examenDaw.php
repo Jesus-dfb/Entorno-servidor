@@ -16,9 +16,9 @@
     //Imprimir variables creadas
     echo "<h1>$nombreAlumno</h1>\n";
     echo "<h2>$modulo</h2>\n";
-    echo "Mi nota media actual es: $notaMedia <br>";
+    echo "Mi nota media actual es: $notaMedia <br>\n";
     //Separación con . porque se usan comillas simples
-    echo 'Mi nota media actual es' . $notaMedia . '<br>';
+    echo 'Mi nota media actual es $notaMedia</br>';
 
     //Comprobar sobresaliente
     if ($notaMedia >= 9) {
