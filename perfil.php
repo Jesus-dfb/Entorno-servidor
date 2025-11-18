@@ -12,7 +12,7 @@
     $edad=19;
     $tieneGithub=true;
     ?>
-    <h1><? $nombreUsuario ?>/h1>
+    <h1></h1>
     <h2>$profesion</h2>
     <p>Edad: $edad años</p>
     <?php
